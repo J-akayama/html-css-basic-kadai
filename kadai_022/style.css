@@ -1,0 +1,64 @@
+header {
+  margin: 0px 0px 20px 0px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+main {
+  margin: 10px;
+}
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+.contents {
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 0px;
+  text-align: center;
+}
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+h2 {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+.contents img {
+  margin: 10px 0px;
+  width: 70%;
+}
+#parent p:nth-of-type(2)::first-letter {
+font-weight: bold;
+color: rgb(97, 206, 249);
+}
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(245, 178, 168);
+}
+a:visited {
+  color: rgb(193, 234, 251);
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font: size 30px;
+  }
+  #parent {
+    
+  flex-direction:column;
+  }
+  p{
+    font-size:25px;
+  }
+}
