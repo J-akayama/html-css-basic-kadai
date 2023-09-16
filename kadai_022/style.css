@@ -52,11 +52,11 @@ a:visited {
 
 @media screen and (max-width: 768px) {
   h2 {
-    font: size 30px;
+    font-size:30px;
   }
   #parent {
-    
-  flex-direction:column;
+
+  flex-direction:column
   }
   p{
     font-size:25px;
